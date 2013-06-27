@@ -1,0 +1,45 @@
+.menu {
+  width: 100%;
+  height: 35px;
+  background-color: gray;
+  border-bottom: 2px black;
+  margin-bottom: 35px;
+}
+
+.menu .clother {
+  font-size: 18px;
+  font-style: bold;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.clothing-img {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.clothing-img img {
+  max-width: 250px;
+  max-height: 250px;
+  margin: auto;
+}
+
+.vote img {
+  width: 75px;
+  height: 75px;
+}
+
+.vote .downvote {
+  width: 50%;
+  float: left;
+}
+
+.vote .upvote {
+  width: 50%;
+  float: right;
+}
+
+.vote .downvote img, .vote .upvote img {
+  margin-left: 25%;
+}
